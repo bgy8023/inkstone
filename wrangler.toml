@@ -25,6 +25,7 @@ run_worker_first = [
 [[d1_databases]]
 binding = "DB"
 database_name = "inkstone-db"
+database_id = "a7653894-9f6c-419a-ba6e-e5969a868fb6"
 
 [[r2_buckets]]
 binding = "FILES"
@@ -32,6 +33,7 @@ bucket_name = "inkstone-files"
 
 [[kv_namespaces]]
 binding = "OAUTH_KV"
+id = "8f70e4ec8c1446b0a1982029aa3ee0c1"
 
 [[durable_objects.bindings]]
 name = "SYNC_HUB"
